@@ -14,9 +14,9 @@ public class QuickSortDemo extends JPanel {
 	
     public QuickSortDemo(int[] array) {
         this.array = array;
-		this.setLayout(null);    
+	this.setLayout(null);    
         startbutton = new JButton("short");
-		startbutton.setBounds(50,20,150,20);
+	startbutton.setBounds(50,20,150,20);
         startbutton.setFont(new Font("Arial", Font.BOLD, 15));
         startbutton.setFocusPainted(false);    
         startbutton.addActionListener(new ActionListener() {
