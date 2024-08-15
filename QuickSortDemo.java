@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener; 
 
 public class QuickSortDemo extends JPanel {
-    private int[] array;
+    private int[] array; 
     private int lowIndex = -1;
     private int highIndex = -1;
     private int pivotIndex = -1;
