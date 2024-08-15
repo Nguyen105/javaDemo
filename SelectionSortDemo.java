@@ -7,13 +7,13 @@ public class SelectionSortDemo extends JPanel {
     private int[] array;
     private int currentIndex = -1;
     private int selectedMinIndex = -1;
-	private JButton startbutton;
+    private JButton startbutton;
 
     public SelectionSortDemo(int[] array) {
         this.array = array;
-		this.setLayout(null);    
+	this.setLayout(null);    
         startbutton = new JButton("short");
-		startbutton.setBounds(50,20,150,20);
+	startbutton.setBounds(50,20,150,20);
         startbutton.setFont(new Font("Arial", Font.BOLD, 15));
         startbutton.setFocusPainted(false);    
         startbutton.addActionListener(new ActionListener() {
